@@ -1,0 +1,5 @@
+ALTER TABLE  `tbl_partner` CHANGE  `balance`  `balance` DECIMAL( 10,2 ) NOT NULL COMMENT  'баланс юзера(голоса)'
+ALTER TABLE  `tbl_billings` CHANGE  `amount`  `amount` DECIMAL( 10,2 ) NOT NULL COMMENT  'сумма пополнения'
+ALTER TABLE  `tbl_cashout` CHANGE  `sum_cash`  `sum_cash` DECIMAL( 10, 2 ) UNSIGNED NOT NULL
+ALTER TABLE  `tbl_finance_partnership` CHANGE  `point`  `point` DECIMAL( 10, 2 ) UNSIGNED NOT NULL COMMENT  'Размер бонуса, баллы'
+ALTER TABLE  `tbl_history_account` CHANGE  `bonuse`  `bonuse` DECIMAL( 10, 2 ) UNSIGNED NOT NULL COMMENT  'Размер бонуса, баллы'

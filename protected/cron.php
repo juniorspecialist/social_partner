@@ -15,3 +15,4 @@ require_once($yii);
 defined('YII_DEBUG') or define('YII_DEBUG',true);
 
 Yii::createConsoleApplication($config)->run();
+
